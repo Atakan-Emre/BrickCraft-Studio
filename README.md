@@ -1,8 +1,21 @@
 # BrickCraft Studio
 
+[![Deploy GitHub Pages](https://github.com/Atakan-Emre/BrickCraft-Studio/actions/workflows/deploy-pages.yml/badge.svg)](https://github.com/Atakan-Emre/BrickCraft-Studio/actions/workflows/deploy-pages.yml)
+[![CI](https://github.com/Atakan-Emre/BrickCraft-Studio/actions/workflows/ci.yml/badge.svg)](https://github.com/Atakan-Emre/BrickCraft-Studio/actions/workflows/ci.yml)
+
+**[Open the live studio](https://atakan-emre.github.io/BrickCraft-Studio/)** · [Türkçe](#türkçe) · [Contributing](CONTRIBUTING.md) · [Model attribution](SOURCES.md)
+
 An interactive, browser-based 3D construction studio built with React, Three.js, and LDraw geometry. Select a detailed model, pick up individual bricks, rotate them on every axis, and assemble the build at your own pace.
 
 BrickCraft Studio is available in English and Turkish, works entirely in the browser, and keeps each model workspace on the device that created it.
+
+## Model gallery
+
+| Ferrari F40 | Sakura Bonsai | NASA Discovery |
+| --- | --- | --- |
+| ![Ferrari F40](public/models/previews/car.png) | ![Sakura Bonsai](public/models/previews/bonsai.png) | ![NASA Discovery](public/models/previews/shuttle.png) |
+
+Rendered from the attributed LDraw models; see [sources and licenses](SOURCES.md).
 
 ## Highlights
 
@@ -16,9 +29,11 @@ BrickCraft Studio is available in English and Turkish, works entirely in the bro
 
 ## Quick start
 
-**Requirements:** Node.js 20 or newer.
+**Requirements:** Node.js 22.12+ and npm; a browser with WebGL support.
 
 ```sh
+git clone https://github.com/Atakan-Emre/BrickCraft-Studio.git
+cd BrickCraft-Studio
 npm ci
 npm run dev
 ```
@@ -27,6 +42,7 @@ Open the local address printed by Vite. For a production build:
 
 ```sh
 npm run build
+npm run preview
 ```
 
 ## Commands
@@ -35,19 +51,41 @@ npm run build
 | --- | --- |
 | `npm run dev` | Start the local development server. |
 | `npm run build` | Produce the deployable build in `dist/client`. |
-| `npm test` | Run the application test suite. |
+| `npm test` | Run the application test suite after building. |
+| `npm run test:deployment` | Check built entry points, model files, geometry packages, previews, and licenses. |
 | `npm run test:sites` | Verify the generated worker hand-off files. |
 | `npm run validate:models` | Validate LDraw geometry while the local server is running. |
 
 ## GitHub Pages
 
-The included GitHub Actions workflow deploys the production build whenever a commit lands on `main`.
+The live app is published at **https://atakan-emre.github.io/BrickCraft-Studio/**. The repository path is case-sensitive.
 
-1. Create a GitHub repository named `brickcraft-studio`.
-2. Push this project to its `main` branch.
-3. In GitHub, open **Settings → Pages** and select **GitHub Actions** as the source.
+In **Settings → Pages**, choose **GitHub Actions** as the source. The deployment workflow reads the base path from GitHub Pages before building, runs the tests, validates the output, and publishes only `dist/client`. It supports renamed repositories and custom domains without a hard-coded repository name.
 
-The workflow supplies the repository base path during the build, so assets work at `https://<account>.github.io/brickcraft-studio/` without any local configuration. If you publish under another repository name, update `VITE_BASE_PATH` in `.github/workflows/deploy-pages.yml` to match it.
+To reproduce the project-path build locally:
+
+```sh
+VITE_BASE_PATH=/BrickCraft-Studio/ npm run build
+npm test
+VITE_BASE_PATH=/BrickCraft-Studio/ npm run test:deployment
+VITE_BASE_PATH=/BrickCraft-Studio/ npm run preview
+```
+
+Open `http://localhost:4173/BrickCraft-Studio/`. Model JSON, part geometry, previews, and source downloads all use the same deployment prefix. The CI workflow checks both `/` and `/BrickCraft-Studio/` before a pull request is merged.
+
+If a deployment shows a blank page, check the latest Actions run and the browser console for missing JavaScript or stylesheet files. Do not clear browser storage as a troubleshooting step; export your build before removing any site data. See the [Vite GitHub Pages guide](https://vite.dev/guide/static-deploy.html#github-pages).
+
+## Project structure
+
+```text
+src/                 React UI, Three.js editor, placement rules, persistence
+public/models/       Model manifests, previews, and original MPD sources
+public/ldraw/        Bundled part geometry and LDraw license notices
+scripts/             Model preparation, geometry and deployment validation
+tests/               Editor, placement, storage, translation, and worker tests
+.github/workflows/   CI checks and GitHub Pages deployment
+worker/              Optional Sites worker, not used by GitHub Pages
+```
 
 ## How to use the editor
 
@@ -82,3 +120,16 @@ BrickCraft Studio is an independent community prototype and is not affiliated wi
 ## License
 
 The included third-party model sources retain their respective licenses listed above and in [SOURCES.md](SOURCES.md). No separate license has been granted for the application source code yet.
+
+## Türkçe
+
+BrickCraft Studio, gerçek LDraw parça geometrileriyle tarayıcıda çalışan bir 3B yapım atölyesidir. **[Canlı uygulamayı aç](https://atakan-emre.github.io/BrickCraft-Studio/)** ve üst çubuktan **TR** dilini seç.
+
+- Altı detaylı modelden birini seç; parçaları sürükle, döndür ve yerleştir.
+- Model envanteriyle veya serbest modda çalış; gerektiğinde ipucu iste.
+- Her modelin çalışma alanı, dil, tema ve favoriler aynı tarayıcıda otomatik saklanır.
+- Yapımını JSON olarak yedekle ve tekrar aç; malzeme listesini CSV olarak indir.
+- Kurulum: Node.js 22.12+ ile `npm ci`, ardından `npm run dev`.
+- Kontrol: `npm run build`, `npm test` ve `npm run test:deployment`.
+
+Kayıtlar cihazlar arasında eşitlenmez. Pin, klips, menteşe ve esnek parçalarda evrensel bağlantı/çarpışma simülasyonu bulunmaz. Kaynak yazarları ve lisanslar [SOURCES.md](SOURCES.md) dosyasındadır.

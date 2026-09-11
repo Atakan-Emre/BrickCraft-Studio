@@ -2,16 +2,23 @@ import * as THREE from 'three';
 import { LDrawLoader } from 'three/addons/loaders/LDrawLoader.js';
 import { LDrawConditionalLineMaterial } from 'three/addons/materials/LDrawConditionalLineMaterial.js';
 import { mergeGeometries } from 'three/addons/utils/BufferGeometryUtils.js';
+import { assetUrl } from './asset-url.js';
 
 const sources = new Map();
 const library = new LDrawLoader().setConditionalLineMaterial(LDrawConditionalLineMaterial);
-const ready = library.preloadMaterials('/ldraw/LDConfig.ldr').then(()=>library.materials.forEach(material=>material.fog=false));
+let ready;
+function prepareMaterials() {
+  ready ??= library.preloadMaterials(assetUrl('/ldraw/LDConfig.ldr'))
+    .then(() => library.materials.forEach(material => material.fog = false))
+    .catch(error => { ready = undefined; throw error; });
+  return ready;
+}
 export async function loadPart(key, url) {
   if (!sources.has(key)) sources.set(key, (async () => {
-    await ready;
+    await prepareMaterials();
     const loader = new LDrawLoader().setConditionalLineMaterial(LDrawConditionalLineMaterial);
     loader.setMaterials(library.materials);
-    const group = await loader.loadAsync(url || `/ldraw/detail/${key}.mpd`);
+    const group = await loader.loadAsync(assetUrl(url || `/ldraw/detail/${key}.mpd`));
     group.rotation.x = Math.PI;
     group.scale.setScalar(.05);
     group.updateMatrixWorld(true);

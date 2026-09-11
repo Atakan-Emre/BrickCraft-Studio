@@ -34,3 +34,24 @@ test('saved files reject missing geometries, non-finite coordinates, duplicate I
   assert.deepEqual(validPlacements(values,model),[piece]);
   assert.equal(validPlacements([{...piece,targetId:'forged-target'}],model)[0].targetId,undefined);
 });
+
+test('malformed imported scales are rejected without throwing or dropping valid pieces', () => {
+  const model = {loaded:{3001:{}},pieces:[]};
+  for (const scale of ['123', {length:3}, null, 0, false, [1,0,1], [1,1,Infinity]]) {
+    assert.deepEqual(validPlacements([{...piece,id:'bad',scale}, piece], model), [piece]);
+  }
+  const {scale, ...legacy} = piece;
+  assert.deepEqual(validPlacements([legacy],model),[legacy]);
+});
+
+test('restored builds count each target only once', () => {
+  const target = {...piece,id:'target-1'};
+  const model = {loaded:{3001:{}},pieces:[target]};
+  const restored = validPlacements([
+    {...piece,targetId:target.id},
+    {...piece,id:'placed-2',targetId:target.id},
+  ],model);
+  assert.equal(restored.length,2);
+  assert.equal(restored.filter(p=>p.targetId).length,1);
+  assert.equal(restored[0].targetId,target.id);
+});

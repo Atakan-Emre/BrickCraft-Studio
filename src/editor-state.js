@@ -30,12 +30,13 @@ export function validPlacements(value, model) {
       && Array.isArray(p.position) && p.position.length === 3 && p.position.every(n=>Number.isFinite(n)&&Math.abs(n)<10000)
       && Array.isArray(p.quaternion) && p.quaternion.length === 4 && p.quaternion.every(Number.isFinite)
       && Math.abs(Math.hypot(...p.quaternion)-1)<.01
-      && (!p.scale || (p.scale.length===3 && p.scale.every(n=>Number.isFinite(n)&&Math.abs(n)>0.00001&&Math.abs(n)<100)));
+      && (p.scale === undefined || (Array.isArray(p.scale) && p.scale.length===3 && p.scale.every(n=>Number.isFinite(n)&&Math.abs(n)>0.00001&&Math.abs(n)<100)));
     if(valid)ids.add(p.id);
     return valid;
-  }).map(p=>{
+  }).reduce((placements,p)=>{
     const target = p.targetId && model.pieces?.find(t=>t.id===p.targetId);
-    if(p.targetId && (!target || !matchTarget(p,[target],[],.01))){const copy={...p};delete copy.targetId;return copy;}
-    return p;
-  });
+    if(p.targetId && (!target || !matchTarget(p,[target],placements,.01))){const copy={...p};delete copy.targetId;placements.push(copy);}
+    else placements.push(p);
+    return placements;
+  },[]);
 }

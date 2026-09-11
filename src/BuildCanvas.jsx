@@ -83,6 +83,7 @@ export const BuildCanvas = forwardRef(function BuildCanvas(props, ref) {
       delete piece.targetId;
       const target=latest.current.snap && matchTarget(piece,latest.current.model?.pieces || [],latest.current.placements);
       if(target){ piece={...piece,position:target.position.slice(),quaternion:target.quaternion.slice(),scale:target.scale.slice(),targetId:target.id};applyPose(object,piece); }
+      if(overlaps(piece)){latest.current.onNotice?.('Bu konumda parçalar çakışıyor. Parçayı başka yere taşı.');if(!isNew)applyPose(object,original);status('overlap');return false;}
       latest.current.onCommit(piece,isNew);
       latest.current.onDraft(null);setSelection(piece.id);status(null);return true;
     }
@@ -228,9 +229,10 @@ export const BuildCanvas = forwardRef(function BuildCanvas(props, ref) {
         if(localPoint(event)){
           const object=draft.object,piece=draft.piece,isNew=!draft.existingId;
           if(overlaps(getPiece(object))){status('overlap');return;}
+          if(!commitObject(object,piece,isNew))return;
           if(draft.existingId && objects.has(draft.existingId))objects.get(draft.existingId).visible=true;
           work.remove(object);draft=null;
-          commitObject(object,piece,isNew);controls.enabled=true;
+          controls.enabled=true;
         }
       }else if(dragging){
         dragging=false;controls.enabled=true;
