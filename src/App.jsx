@@ -76,7 +76,7 @@ function Modal({
   }, []);
   return <dialog ref={ref} className={wide ? 'modal wide' : 'modal'} onCancel={onClose} onClick={e => {
     if (e.target === ref.current) onClose();
-  }}><header><div><span className="eyebrow">{t("PARÇA ATÖLYESİ")}</span><h2>{title}</h2></div><IconButton label={t("Pencereyi kapat")} onClick={onClose}><X size={22} /></IconButton></header>{children}</dialog>;
+  }}><header><div><span className="eyebrow">{t("BRICKCRAFT STUDIO")}</span><h2>{title}</h2></div><IconButton label={t("Pencereyi kapat")} onClick={onClose}><X size={22} /></IconButton></header>{children}</dialog>;
 }
 export function App() {
   const [settings] = useState(() => {try{return readSettings(browserStorage());}catch{return readSettings(null);}});
@@ -137,7 +137,7 @@ function Workbench({
   useEffect(() => {
     document.documentElement.dataset.theme=theme;
     document.documentElement.lang=language;
-    document.title=language==='tr'?'Parça Atölyesi — Hayal et. Birleştir.':'Brick Workshop — Imagine. Connect.';
+    document.title=language==='tr'?'BrickCraft Studio — Kendi tarzında yap.':'BrickCraft Studio — Build Your Way.';
     setSettingsError(!saveSettings(browserStorage(),{language,theme,modelId,mode,snap,favorites}));
   },[language,theme,modelId,mode,snap,favorites]);
   useEffect(() => {
@@ -315,7 +315,7 @@ function Workbench({
   const exportParts = () => download(`${t(catalog.title)}-malzemeler.csv`, '\uFEFF'+[t('Parça'),language==='tr'?'Ad':'Name',t('Renk'),t('Gereken'),t('Masada'),t('Kalan')].join(';')+'\n' + model.groups.map(g => [g.sourceId, shortName(g.name), colorInfo(g.color, language).name, g.count, used[g.key] || 0, Math.max(0, g.count - (used[g.key] || 0))].join(';')).join('\n'), 'text/csv;charset=utf-8');
   return <div className="app-shell">
     <header className="app-header">
-      <a className="brand" href="#" onClick={e => e.preventDefault()}><span className="brand-symbol"><Cube size={24} weight="fill" /></span><span>{language==='tr'?'parça':'brick'}<span className="brand-light">{language==='tr'?'atölyesi':'workshop'}</span><small>{t("HAYAL ET. BİRLEŞTİR.")}</small></span></a>
+      <a className="brand" href="#" onClick={e => e.preventDefault()}><span className="brand-symbol"><Cube size={24} weight="fill" /></span><span>brick<span className="brand-light">craft studio</span><small>{t("KENDİ TARZINDA YAP.")}</small></span></a>
       <span className="header-divider" />
       <button className="project-switch" onClick={() => setModal('models')}><span className="project-dot" /><span>{t(catalog.title)}<small>{t("Kişisel çalışma alanın")}</small></span><CaretDown size={15} /></button>
       <div className="header-actions"><span className={`save-state ${saveError||settingsError?'save-error':''}`} title={savedAt?`${t('Son kayıt')}: ${new Date(savedAt).toLocaleTimeString(language,{hour:'2-digit',minute:'2-digit'})}`:t('Yalnızca bu tarayıcıda saklanır.')}><CheckCircle size={16} />{saveError||settingsError ? t('Kayıt alanı dolu') : saving?t('Kaydediliyor…'):t('Bu cihazda kayıtlı')}</span><div className="language-switch" role="group" aria-label={t('Dil seçimi')}>{['tr','en'].map(lang=><button key={lang} aria-pressed={language===lang} aria-label={lang==='tr'?'Türkçe':'English'} onClick={()=>setLanguage(lang)}>{lang.toUpperCase()}</button>)}</div><div className="theme-switch" aria-label={t("Tema seçimi")}><button aria-label={t("Açık tema")} aria-pressed={theme === 'light'} onClick={() => setTheme('light')}><Sun size={17} /></button><button aria-label={t("Koyu tema")} aria-pressed={theme === 'dark'} onClick={() => setTheme('dark')}><Moon size={17} /></button></div><button className="button secondary export-button" onClick={exportBuild} disabled={!model}><DownloadSimple size={16} />{t("Yapımı kaydet")}</button></div>
