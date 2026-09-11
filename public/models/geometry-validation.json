@@ -1,0 +1,2524 @@
+{
+  "generatedAt": "2026-09-08T08:05:29.527Z",
+  "models": [
+    {
+      "id": "car",
+      "elements": 1157,
+      "parts": 172
+    },
+    {
+      "id": "bonsai",
+      "elements": 751,
+      "parts": 77
+    },
+    {
+      "id": "shuttle",
+      "elements": 2318,
+      "parts": 318
+    },
+    {
+      "id": "eiffel",
+      "elements": 320,
+      "parts": 48
+    },
+    {
+      "id": "house",
+      "elements": 1698,
+      "parts": 239
+    },
+    {
+      "id": "bouquet",
+      "elements": 750,
+      "parts": 67
+    }
+  ],
+  "packageCount": 621,
+  "validCount": 621,
+  "failures": [],
+  "results": [
+    {
+      "key": "2357",
+      "vertices": 879
+    },
+    {
+      "key": "2420",
+      "vertices": 852
+    },
+    {
+      "key": "2431",
+      "vertices": 564
+    },
+    {
+      "key": "2432",
+      "vertices": 498
+    },
+    {
+      "key": "2445",
+      "vertices": 6708
+    },
+    {
+      "key": "2450",
+      "vertices": 1950
+    },
+    {
+      "key": "2458",
+      "vertices": 1692
+    },
+    {
+      "key": "2730",
+      "vertices": 11682
+    },
+    {
+      "key": "2780",
+      "vertices": 4512
+    },
+    {
+      "key": "2819",
+      "vertices": 3234
+    },
+    {
+      "key": "2877",
+      "vertices": 792
+    },
+    {
+      "key": "2921",
+      "vertices": 558
+    },
+    {
+      "key": "3003",
+      "vertices": 948
+    },
+    {
+      "key": "3004",
+      "vertices": 516
+    },
+    {
+      "key": "3005",
+      "vertices": 228
+    },
+    {
+      "key": "3009",
+      "vertices": 1668
+    },
+    {
+      "key": "3010",
+      "vertices": 1092
+    },
+    {
+      "key": "3020",
+      "vertices": 2100
+    },
+    {
+      "key": "3021",
+      "vertices": 1524
+    },
+    {
+      "key": "3022",
+      "vertices": 948
+    },
+    {
+      "key": "3023",
+      "vertices": 516
+    },
+    {
+      "key": "3024",
+      "vertices": 228
+    },
+    {
+      "key": "3029",
+      "vertices": 16500
+    },
+    {
+      "key": "3034",
+      "vertices": 4404
+    },
+    {
+      "key": "3460",
+      "vertices": 2244
+    },
+    {
+      "key": "3623",
+      "vertices": 804
+    },
+    {
+      "key": "3633",
+      "vertices": 882
+    },
+    {
+      "key": "3666",
+      "vertices": 1668
+    },
+    {
+      "key": "3701",
+      "vertices": 4158
+    },
+    {
+      "key": "3707",
+      "vertices": 528
+    },
+    {
+      "key": "3710",
+      "vertices": 1092
+    },
+    {
+      "key": "3737",
+      "vertices": 528
+    },
+    {
+      "key": "3795",
+      "vertices": 3252
+    },
+    {
+      "key": "3832",
+      "vertices": 5556
+    },
+    {
+      "key": "3895",
+      "vertices": 14190
+    },
+    {
+      "key": "3941",
+      "vertices": 1872
+    },
+    {
+      "key": "4006",
+      "vertices": 1074
+    },
+    {
+      "key": "4070",
+      "vertices": 828
+    },
+    {
+      "key": "4162",
+      "vertices": 1140
+    },
+    {
+      "key": "4274",
+      "vertices": 1560
+    },
+    {
+      "key": "4286",
+      "vertices": 678
+    },
+    {
+      "key": "4477",
+      "vertices": 2820
+    },
+    {
+      "key": "4590",
+      "vertices": 2982
+    },
+    {
+      "key": "4592",
+      "vertices": 972
+    },
+    {
+      "key": "4593",
+      "vertices": 1440
+    },
+    {
+      "key": "4740",
+      "vertices": 1536
+    },
+    {
+      "key": "6005",
+      "vertices": 678
+    },
+    {
+      "key": "6112",
+      "vertices": 3396
+    },
+    {
+      "key": "6141",
+      "vertices": 864
+    },
+    {
+      "key": "6179",
+      "vertices": 3258
+    },
+    {
+      "key": "6192",
+      "vertices": 1944
+    },
+    {
+      "key": "6231",
+      "vertices": 240
+    },
+    {
+      "key": "6232",
+      "vertices": 2640
+    },
+    {
+      "key": "6541",
+      "vertices": 984
+    },
+    {
+      "key": "6558",
+      "vertices": 6432
+    },
+    {
+      "key": "6632",
+      "vertices": 2436
+    },
+    {
+      "key": "6636",
+      "vertices": 852
+    },
+    {
+      "key": "10247",
+      "vertices": 2004
+    },
+    {
+      "key": "11211",
+      "vertices": 1596
+    },
+    {
+      "key": "11215",
+      "vertices": 3360
+    },
+    {
+      "key": "11458",
+      "vertices": 1302
+    },
+    {
+      "key": "11477",
+      "vertices": 456
+    },
+    {
+      "key": "13547",
+      "vertices": 2292
+    },
+    {
+      "key": "14719",
+      "vertices": 492
+    },
+    {
+      "key": "15068",
+      "vertices": 858
+    },
+    {
+      "key": "15070",
+      "vertices": 648
+    },
+    {
+      "key": "15462",
+      "vertices": 504
+    },
+    {
+      "key": "15535",
+      "vertices": 1680
+    },
+    {
+      "key": "15573",
+      "vertices": 660
+    },
+    {
+      "key": "15712",
+      "vertices": 366
+    },
+    {
+      "key": "18674",
+      "vertices": 2160
+    },
+    {
+      "key": "18677",
+      "vertices": 1494
+    },
+    {
+      "key": "19215",
+      "vertices": 3648
+    },
+    {
+      "key": "30132",
+      "vertices": 1344
+    },
+    {
+      "key": "30137",
+      "vertices": 1506
+    },
+    {
+      "key": "30357",
+      "vertices": 2712
+    },
+    {
+      "key": "30374",
+      "vertices": 192
+    },
+    {
+      "key": "30413",
+      "vertices": 660
+    },
+    {
+      "key": "30414",
+      "vertices": 3084
+    },
+    {
+      "key": "30526",
+      "vertices": 2868
+    },
+    {
+      "key": "30553",
+      "vertices": 5058
+    },
+    {
+      "key": "32000",
+      "vertices": 1980
+    },
+    {
+      "key": "32018",
+      "vertices": 16698
+    },
+    {
+      "key": "32028",
+      "vertices": 588
+    },
+    {
+      "key": "32054",
+      "vertices": 5856
+    },
+    {
+      "key": "32062",
+      "vertices": 1104
+    },
+    {
+      "key": "32124",
+      "vertices": 2946
+    },
+    {
+      "key": "32140",
+      "vertices": 5376
+    },
+    {
+      "key": "32291",
+      "vertices": 3258
+    },
+    {
+      "key": "32316",
+      "vertices": 6012
+    },
+    {
+      "key": "32523",
+      "vertices": 3396
+    },
+    {
+      "key": "32524",
+      "vertices": 8628
+    },
+    {
+      "key": "32526",
+      "vertices": 8544
+    },
+    {
+      "key": "32530",
+      "vertices": 2562
+    },
+    {
+      "key": "32531",
+      "vertices": 18684
+    },
+    {
+      "key": "32556",
+      "vertices": 3618
+    },
+    {
+      "key": "41678",
+      "vertices": 2916
+    },
+    {
+      "key": "41769",
+      "vertices": 1563
+    },
+    {
+      "key": "41770",
+      "vertices": 1563
+    },
+    {
+      "key": "41854",
+      "vertices": 1422
+    },
+    {
+      "key": "42003",
+      "vertices": 4236
+    },
+    {
+      "key": "43093",
+      "vertices": 2232
+    },
+    {
+      "key": "43722",
+      "vertices": 1125
+    },
+    {
+      "key": "43723",
+      "vertices": 1125
+    },
+    {
+      "key": "44309",
+      "vertices": 14592
+    },
+    {
+      "key": "44728",
+      "vertices": 1866
+    },
+    {
+      "key": "48336",
+      "vertices": 1080
+    },
+    {
+      "key": "50950",
+      "vertices": 516
+    },
+    {
+      "key": "50967",
+      "vertices": 1152
+    },
+    {
+      "key": "51739",
+      "vertices": 1272
+    },
+    {
+      "key": "52501",
+      "vertices": 2568
+    },
+    {
+      "key": "54200",
+      "vertices": 237
+    },
+    {
+      "key": "56145",
+      "vertices": 8766
+    },
+    {
+      "key": "60477",
+      "vertices": 966
+    },
+    {
+      "key": "60478",
+      "vertices": 1080
+    },
+    {
+      "key": "60479",
+      "vertices": 3396
+    },
+    {
+      "key": "60481",
+      "vertices": 384
+    },
+    {
+      "key": "60483",
+      "vertices": 1608
+    },
+    {
+      "key": "60485",
+      "vertices": 528
+    },
+    {
+      "key": "60897",
+      "vertices": 552
+    },
+    {
+      "key": "61252",
+      "vertices": 588
+    },
+    {
+      "key": "61409",
+      "vertices": 372
+    },
+    {
+      "key": "61678",
+      "vertices": 480
+    },
+    {
+      "key": "62462",
+      "vertices": 1296
+    },
+    {
+      "key": "63864",
+      "vertices": 420
+    },
+    {
+      "key": "63965",
+      "vertices": 576
+    },
+    {
+      "key": "85861",
+      "vertices": 1152
+    },
+    {
+      "key": "85943",
+      "vertices": 3708
+    },
+    {
+      "key": "85984",
+      "vertices": 516
+    },
+    {
+      "key": "87079",
+      "vertices": 996
+    },
+    {
+      "key": "87083",
+      "vertices": 504
+    },
+    {
+      "key": "87087",
+      "vertices": 744
+    },
+    {
+      "key": "87580",
+      "vertices": 822
+    },
+    {
+      "key": "87618",
+      "vertices": 654
+    },
+    {
+      "key": "87994",
+      "vertices": 192
+    },
+    {
+      "key": "88072",
+      "vertices": 1032
+    },
+    {
+      "key": "88292",
+      "vertices": 840
+    },
+    {
+      "key": "92280",
+      "vertices": 846
+    },
+    {
+      "key": "92593",
+      "vertices": 804
+    },
+    {
+      "key": "92950",
+      "vertices": 1356
+    },
+    {
+      "key": "93274",
+      "vertices": 3156
+    },
+    {
+      "key": "93606",
+      "vertices": 1566
+    },
+    {
+      "key": "98138",
+      "vertices": 768
+    },
+    {
+      "key": "99206",
+      "vertices": 1629
+    },
+    {
+      "key": "99207",
+      "vertices": 1890
+    },
+    {
+      "key": "99780",
+      "vertices": 1314
+    },
+    {
+      "key": "99781",
+      "vertices": 1302
+    },
+    {
+      "key": "32064a",
+      "vertices": 1374
+    },
+    {
+      "key": "car-custom-10248---92582-88db8ab4",
+      "vertices": 2232
+    },
+    {
+      "key": "2412b",
+      "vertices": 390
+    },
+    {
+      "key": "3069b",
+      "vertices": 132
+    },
+    {
+      "key": "3068b",
+      "vertices": 534
+    },
+    {
+      "key": "3070b",
+      "vertices": 132
+    },
+    {
+      "key": "98138pc1",
+      "vertices": 1656
+    },
+    {
+      "key": "3062b",
+      "vertices": 1152
+    },
+    {
+      "key": "3245c",
+      "vertices": 456
+    },
+    {
+      "key": "3665b",
+      "vertices": 1188
+    },
+    {
+      "key": "60470a",
+      "vertices": 1140
+    },
+    {
+      "key": "19212p01",
+      "vertices": 4548
+    },
+    {
+      "key": "3747b",
+      "vertices": 3810
+    },
+    {
+      "key": "32064b",
+      "vertices": 1458
+    },
+    {
+      "key": "2436b",
+      "vertices": 1980
+    },
+    {
+      "key": "4032a",
+      "vertices": 1584
+    },
+    {
+      "key": "48729b",
+      "vertices": 1050
+    },
+    {
+      "key": "577b",
+      "vertices": 2832
+    },
+    {
+      "key": "4081b",
+      "vertices": 1278
+    },
+    {
+      "key": "60470b",
+      "vertices": 1236
+    },
+    {
+      "key": "4865b",
+      "vertices": 348
+    },
+    {
+      "key": "50956p01",
+      "vertices": 9657
+    },
+    {
+      "key": "50955p01",
+      "vertices": 9657
+    },
+    {
+      "key": "60475b",
+      "vertices": 696
+    },
+    {
+      "key": "3040a",
+      "vertices": 252
+    },
+    {
+      "key": "2423",
+      "vertices": 4431
+    },
+    {
+      "key": "2429",
+      "vertices": 978
+    },
+    {
+      "key": "2430",
+      "vertices": 1716
+    },
+    {
+      "key": "2456",
+      "vertices": 3252
+    },
+    {
+      "key": "3008",
+      "vertices": 2244
+    },
+    {
+      "key": "3036",
+      "vertices": 17076
+    },
+    {
+      "key": "3660",
+      "vertices": 1704
+    },
+    {
+      "key": "3700",
+      "vertices": 1650
+    },
+    {
+      "key": "11213",
+      "vertices": 13728
+    },
+    {
+      "key": "11214",
+      "vertices": 2373
+    },
+    {
+      "key": "11476",
+      "vertices": 876
+    },
+    {
+      "key": "13564",
+      "vertices": 804
+    },
+    {
+      "key": "15207",
+      "vertices": 660
+    },
+    {
+      "key": "18654",
+      "vertices": 768
+    },
+    {
+      "key": "27263",
+      "vertices": 384
+    },
+    {
+      "key": "30028",
+      "vertices": 1584
+    },
+    {
+      "key": "30099",
+      "vertices": 1182
+    },
+    {
+      "key": "30503",
+      "vertices": 3462
+    },
+    {
+      "key": "32606",
+      "vertices": 3576
+    },
+    {
+      "key": "32828",
+      "vertices": 1575
+    },
+    {
+      "key": "33320",
+      "vertices": 6462
+    },
+    {
+      "key": "35044",
+      "vertices": 2814
+    },
+    {
+      "key": "37352",
+      "vertices": 336
+    },
+    {
+      "key": "41682",
+      "vertices": 1008
+    },
+    {
+      "key": "43892",
+      "vertices": 2016
+    },
+    {
+      "key": "61485",
+      "vertices": 7128
+    },
+    {
+      "key": "87609",
+      "vertices": 4806
+    },
+    {
+      "key": "96910",
+      "vertices": 684
+    },
+    {
+      "key": "98397",
+      "vertices": 2130
+    },
+    {
+      "key": "2476a",
+      "vertices": 2988
+    },
+    {
+      "key": "bonsai-custom-10281---30166-fd2e97fd",
+      "vertices": 2628
+    },
+    {
+      "key": "bonsai-custom-10281---66956-4624099a",
+      "vertices": 840
+    },
+    {
+      "key": "bonsai-custom-10281---65473-5a1fd2de",
+      "vertices": 3540
+    },
+    {
+      "key": "bonsai-custom-10281---flex-cable2-956b7cce",
+      "vertices": 9384
+    },
+    {
+      "key": "bonsai-custom-10281---flex-cable-639a25a1",
+      "vertices": 9096
+    },
+    {
+      "key": "bonsai-custom-10281---98313-992dbb78",
+      "vertices": 1416
+    },
+    {
+      "key": "2339",
+      "vertices": 1218
+    },
+    {
+      "key": "2449",
+      "vertices": 1188
+    },
+    {
+      "key": "2817",
+      "vertices": 2448
+    },
+    {
+      "key": "3001",
+      "vertices": 2100
+    },
+    {
+      "key": "3002",
+      "vertices": 1524
+    },
+    {
+      "key": "3006",
+      "vertices": 5556
+    },
+    {
+      "key": "3007",
+      "vertices": 4620
+    },
+    {
+      "key": "3028",
+      "vertices": 26292
+    },
+    {
+      "key": "3030",
+      "vertices": 13620
+    },
+    {
+      "key": "3031",
+      "vertices": 4980
+    },
+    {
+      "key": "3032",
+      "vertices": 7860
+    },
+    {
+      "key": "3033",
+      "vertices": 21684
+    },
+    {
+      "key": "3039",
+      "vertices": 1056
+    },
+    {
+      "key": "3043",
+      "vertices": 660
+    },
+    {
+      "key": "3046",
+      "vertices": 1032
+    },
+    {
+      "key": "3176",
+      "vertices": 1488
+    },
+    {
+      "key": "3297",
+      "vertices": 3936
+    },
+    {
+      "key": "3298",
+      "vertices": 1536
+    },
+    {
+      "key": "3622",
+      "vertices": 804
+    },
+    {
+      "key": "3659",
+      "vertices": 960
+    },
+    {
+      "key": "3673",
+      "vertices": 2352
+    },
+    {
+      "key": "3702",
+      "vertices": 9174
+    },
+    {
+      "key": "3703",
+      "vertices": 19206
+    },
+    {
+      "key": "3705",
+      "vertices": 528
+    },
+    {
+      "key": "3706",
+      "vertices": 528
+    },
+    {
+      "key": "3713",
+      "vertices": 1464
+    },
+    {
+      "key": "3849",
+      "vertices": 816
+    },
+    {
+      "key": "3937",
+      "vertices": 906
+    },
+    {
+      "key": "3938",
+      "vertices": 1758
+    },
+    {
+      "key": "3958",
+      "vertices": 12468
+    },
+    {
+      "key": "4282",
+      "vertices": 9012
+    },
+    {
+      "key": "4490",
+      "vertices": 840
+    },
+    {
+      "key": "4519",
+      "vertices": 528
+    },
+    {
+      "key": "6106",
+      "vertices": 9567
+    },
+    {
+      "key": "6111",
+      "vertices": 2820
+    },
+    {
+      "key": "6134",
+      "vertices": 2682
+    },
+    {
+      "key": "6233",
+      "vertices": 6552
+    },
+    {
+      "key": "6249",
+      "vertices": 4452
+    },
+    {
+      "key": "6259",
+      "vertices": 3699
+    },
+    {
+      "key": "6536",
+      "vertices": 2412
+    },
+    {
+      "key": "6553",
+      "vertices": 2154
+    },
+    {
+      "key": "6564",
+      "vertices": 924
+    },
+    {
+      "key": "6565",
+      "vertices": 924
+    },
+    {
+      "key": "6628",
+      "vertices": 2544
+    },
+    {
+      "key": "11090",
+      "vertices": 624
+    },
+    {
+      "key": "11203",
+      "vertices": 2676
+    },
+    {
+      "key": "11212",
+      "vertices": 2532
+    },
+    {
+      "key": "11272",
+      "vertices": 6312
+    },
+    {
+      "key": "13965",
+      "vertices": 1014
+    },
+    {
+      "key": "14418",
+      "vertices": 2358
+    },
+    {
+      "key": "14769",
+      "vertices": 1488
+    },
+    {
+      "key": "15395",
+      "vertices": 2304
+    },
+    {
+      "key": "15397",
+      "vertices": 1284
+    },
+    {
+      "key": "15672",
+      "vertices": 462
+    },
+    {
+      "key": "15706",
+      "vertices": 2316
+    },
+    {
+      "key": "17485",
+      "vertices": 3750
+    },
+    {
+      "key": "18653",
+      "vertices": 804
+    },
+    {
+      "key": "18671",
+      "vertices": 1584
+    },
+    {
+      "key": "18980",
+      "vertices": 3564
+    },
+    {
+      "key": "20482",
+      "vertices": 1056
+    },
+    {
+      "key": "22885",
+      "vertices": 1764
+    },
+    {
+      "key": "22890",
+      "vertices": 1380
+    },
+    {
+      "key": "22961",
+      "vertices": 1308
+    },
+    {
+      "key": "23443",
+      "vertices": 1146
+    },
+    {
+      "key": "24122",
+      "vertices": 1524
+    },
+    {
+      "key": "24201",
+      "vertices": 1920
+    },
+    {
+      "key": "24246",
+      "vertices": 438
+    },
+    {
+      "key": "24299",
+      "vertices": 678
+    },
+    {
+      "key": "24307",
+      "vertices": 678
+    },
+    {
+      "key": "24309",
+      "vertices": 1554
+    },
+    {
+      "key": "24866",
+      "vertices": 3006
+    },
+    {
+      "key": "25269",
+      "vertices": 288
+    },
+    {
+      "key": "26601",
+      "vertices": 876
+    },
+    {
+      "key": "27507",
+      "vertices": 1404
+    },
+    {
+      "key": "27925",
+      "vertices": 918
+    },
+    {
+      "key": "28192",
+      "vertices": 192
+    },
+    {
+      "key": "28802",
+      "vertices": 1854
+    },
+    {
+      "key": "30145",
+      "vertices": 1020
+    },
+    {
+      "key": "30363",
+      "vertices": 2100
+    },
+    {
+      "key": "30505",
+      "vertices": 1956
+    },
+    {
+      "key": "30552",
+      "vertices": 3732
+    },
+    {
+      "key": "30565",
+      "vertices": 4104
+    },
+    {
+      "key": "32013",
+      "vertices": 1605
+    },
+    {
+      "key": "32073",
+      "vertices": 528
+    },
+    {
+      "key": "32449",
+      "vertices": 3744
+    },
+    {
+      "key": "32555",
+      "vertices": 8436
+    },
+    {
+      "key": "32803",
+      "vertices": 3624
+    },
+    {
+      "key": "32952",
+      "vertices": 804
+    },
+    {
+      "key": "33909",
+      "vertices": 660
+    },
+    {
+      "key": "34337",
+      "vertices": 1716
+    },
+    {
+      "key": "35459",
+      "vertices": 1932
+    },
+    {
+      "key": "35787",
+      "vertices": 384
+    },
+    {
+      "key": "36840",
+      "vertices": 666
+    },
+    {
+      "key": "36841",
+      "vertices": 660
+    },
+    {
+      "key": "37762",
+      "vertices": 744
+    },
+    {
+      "key": "39613",
+      "vertices": 2685
+    },
+    {
+      "key": "41677",
+      "vertices": 1068
+    },
+    {
+      "key": "41740",
+      "vertices": 768
+    },
+    {
+      "key": "41747",
+      "vertices": 3183
+    },
+    {
+      "key": "41748",
+      "vertices": 3183
+    },
+    {
+      "key": "42610",
+      "vertices": 2256
+    },
+    {
+      "key": "42862",
+      "vertices": 2127
+    },
+    {
+      "key": "42918",
+      "vertices": 4029
+    },
+    {
+      "key": "43710",
+      "vertices": 1863
+    },
+    {
+      "key": "43711",
+      "vertices": 1863
+    },
+    {
+      "key": "43898",
+      "vertices": 4128
+    },
+    {
+      "key": "44294",
+      "vertices": 528
+    },
+    {
+      "key": "44570",
+      "vertices": 12252
+    },
+    {
+      "key": "44861",
+      "vertices": 702
+    },
+    {
+      "key": "47397",
+      "vertices": 7413
+    },
+    {
+      "key": "47398",
+      "vertices": 7413
+    },
+    {
+      "key": "47457",
+      "vertices": 1428
+    },
+    {
+      "key": "48165",
+      "vertices": 2127
+    },
+    {
+      "key": "49307",
+      "vertices": 300
+    },
+    {
+      "key": "50304",
+      "vertices": 5544
+    },
+    {
+      "key": "50305",
+      "vertices": 5544
+    },
+    {
+      "key": "50340",
+      "vertices": 4224
+    },
+    {
+      "key": "50373",
+      "vertices": 1788
+    },
+    {
+      "key": "50951",
+      "vertices": 1728
+    },
+    {
+      "key": "50955",
+      "vertices": 9591
+    },
+    {
+      "key": "50956",
+      "vertices": 9591
+    },
+    {
+      "key": "54383",
+      "vertices": 3492
+    },
+    {
+      "key": "54384",
+      "vertices": 3492
+    },
+    {
+      "key": "55013",
+      "vertices": 504
+    },
+    {
+      "key": "58176",
+      "vertices": 1008
+    },
+    {
+      "key": "59426",
+      "vertices": 1008
+    },
+    {
+      "key": "59443",
+      "vertices": 1296
+    },
+    {
+      "key": "59895",
+      "vertices": 2622
+    },
+    {
+      "key": "61483",
+      "vertices": 3636
+    },
+    {
+      "key": "63868",
+      "vertices": 876
+    },
+    {
+      "key": "64799",
+      "vertices": 3756
+    },
+    {
+      "key": "64951",
+      "vertices": 7242
+    },
+    {
+      "key": "65578",
+      "vertices": 1344
+    },
+    {
+      "key": "66727",
+      "vertices": 5103
+    },
+    {
+      "key": "69729",
+      "vertices": 1572
+    },
+    {
+      "key": "75937",
+      "vertices": 4872
+    },
+    {
+      "key": "76260",
+      "vertices": 768
+    },
+    {
+      "key": "85970",
+      "vertices": 3726
+    },
+    {
+      "key": "87761",
+      "vertices": 5586
+    },
+    {
+      "key": "88646",
+      "vertices": 2388
+    },
+    {
+      "key": "90498",
+      "vertices": 30372
+    },
+    {
+      "key": "91988",
+      "vertices": 7860
+    },
+    {
+      "key": "92582",
+      "vertices": 2232
+    },
+    {
+      "key": "92584",
+      "vertices": 22398
+    },
+    {
+      "key": "92907",
+      "vertices": 3930
+    },
+    {
+      "key": "93273",
+      "vertices": 984
+    },
+    {
+      "key": "93348",
+      "vertices": 1944
+    },
+    {
+      "key": "93604",
+      "vertices": 3258
+    },
+    {
+      "key": "98585",
+      "vertices": 5688
+    },
+    {
+      "key": "shuttle-custom-10283---61332-4379b9d8",
+      "vertices": 2214
+    },
+    {
+      "key": "4599b",
+      "vertices": 1572
+    },
+    {
+      "key": "shuttle-custom-10283---93273p01-e99dc48e",
+      "vertices": 2838
+    },
+    {
+      "key": "shuttle-custom-10283---65304-a29ed35a",
+      "vertices": 3303
+    },
+    {
+      "key": "2654a",
+      "vertices": 3048
+    },
+    {
+      "key": "shuttle-custom-10283---hubble-47-whip-standin-82093a63",
+      "vertices": 3840
+    },
+    {
+      "key": "3069bps1",
+      "vertices": 528
+    },
+    {
+      "key": "63965a",
+      "vertices": 576
+    },
+    {
+      "key": "shuttle-custom-10283---78267p01-b161f152",
+      "vertices": 3876
+    },
+    {
+      "key": "shuttle-custom-10283---42924-2625dd5e",
+      "vertices": 3138
+    },
+    {
+      "key": "shuttle-custom-10283---shuttle-shock-dc5977bc",
+      "vertices": 15240
+    },
+    {
+      "key": "shuttle-custom-10283---42135-437aa0b5",
+      "vertices": 2730
+    },
+    {
+      "key": "shuttle-custom-10283---43056-1a8cca3f",
+      "vertices": 2784
+    },
+    {
+      "key": "shuttle-custom-10283---65635-78624251",
+      "vertices": 6036
+    },
+    {
+      "key": "3039p05",
+      "vertices": 1152
+    },
+    {
+      "key": "3665a",
+      "vertices": 852
+    },
+    {
+      "key": "shuttle-custom-10283---shuttle-shock-2-f804e5c2",
+      "vertices": 15240
+    },
+    {
+      "key": "32123b",
+      "vertices": 1392
+    },
+    {
+      "key": "shuttle-custom-10283---10202p03-beb260af",
+      "vertices": 11394
+    },
+    {
+      "key": "shuttle-custom-10283---10202p02-ae27a1fa",
+      "vertices": 9384
+    },
+    {
+      "key": "4460b",
+      "vertices": 504
+    },
+    {
+      "key": "2739a",
+      "vertices": 1368
+    },
+    {
+      "key": "shuttle-custom-10283---44567b-4a758571",
+      "vertices": 1806
+    },
+    {
+      "key": "shuttle-custom-10283---3008p0f-b03d8812",
+      "vertices": 8016
+    },
+    {
+      "key": "shuttle-custom-10283---3008p0e-54387a22",
+      "vertices": 8016
+    },
+    {
+      "key": "shuttle-custom-10283---73230-aba514ac",
+      "vertices": 882
+    },
+    {
+      "key": "3069bp04",
+      "vertices": 3630
+    },
+    {
+      "key": "3678b",
+      "vertices": 1152
+    },
+    {
+      "key": "3070bp0m",
+      "vertices": 228
+    },
+    {
+      "key": "shuttle-custom-10283---73825-8c2ee9d8",
+      "vertices": 954
+    },
+    {
+      "key": "shuttle-custom-10283---3070bpc4-52890cc2",
+      "vertices": 1842
+    },
+    {
+      "key": "shuttle-custom-10283---54200pc1-e67bc1f0",
+      "vertices": 501
+    },
+    {
+      "key": "shuttle-custom-10283---3069bpce-3620b04a",
+      "vertices": 3666
+    },
+    {
+      "key": "2429c01",
+      "vertices": 2694
+    },
+    {
+      "key": "30554b",
+      "vertices": 6216
+    },
+    {
+      "key": "shuttle-custom-10283---76798d02-ecb2732b",
+      "vertices": 5880
+    },
+    {
+      "key": "shuttle-custom-10283---76798d01-fefdb6aa",
+      "vertices": 5076
+    },
+    {
+      "key": "shuttle-custom-10283---76798d03-aafcf719",
+      "vertices": 5880
+    },
+    {
+      "key": "shuttle-custom-10283---48165d01-94997a62",
+      "vertices": 3591
+    },
+    {
+      "key": "shuttle-custom-10283---42862d01-6a140cf1",
+      "vertices": 3591
+    },
+    {
+      "key": "3040b",
+      "vertices": 534
+    },
+    {
+      "key": "4287b",
+      "vertices": 2136
+    },
+    {
+      "key": "shuttle-custom-10283---24309p05-f9555033",
+      "vertices": 1860
+    },
+    {
+      "key": "shuttle-custom-10283---76797-1ac3fa46",
+      "vertices": 2388
+    },
+    {
+      "key": "shuttle-custom-10283---76796p01-6ac7ef31",
+      "vertices": 7671
+    },
+    {
+      "key": "shuttle-custom-10283---6342851a-25149e37",
+      "vertices": 26820
+    },
+    {
+      "key": "3660a",
+      "vertices": 1704
+    },
+    {
+      "key": "shuttle-custom-10283---4515d03-6c2f5427",
+      "vertices": 34284
+    },
+    {
+      "key": "2555",
+      "vertices": 288
+    },
+    {
+      "key": "3679",
+      "vertices": 1872
+    },
+    {
+      "key": "3680",
+      "vertices": 1140
+    },
+    {
+      "key": "4733",
+      "vertices": 2664
+    },
+    {
+      "key": "6143",
+      "vertices": 2040
+    },
+    {
+      "key": "10201",
+      "vertices": 1980
+    },
+    {
+      "key": "11833",
+      "vertices": 5088
+    },
+    {
+      "key": "30033",
+      "vertices": 6432
+    },
+    {
+      "key": "50746",
+      "vertices": 237
+    },
+    {
+      "key": "59900",
+      "vertices": 1584
+    },
+    {
+      "key": "4162p0s",
+      "vertices": 2862
+    },
+    {
+      "key": "4151b",
+      "vertices": 11544
+    },
+    {
+      "key": "3709b",
+      "vertices": 2736
+    },
+    {
+      "key": "30367b",
+      "vertices": 2736
+    },
+    {
+      "key": "eiffel-custom-21019---technicflexaxle-1-50cc7d64",
+      "vertices": 6720
+    },
+    {
+      "key": "15",
+      "vertices": 732
+    },
+    {
+      "key": "750",
+      "vertices": 792
+    },
+    {
+      "key": "754",
+      "vertices": 1104
+    },
+    {
+      "key": "756",
+      "vertices": 1248
+    },
+    {
+      "key": "791",
+      "vertices": 1692
+    },
+    {
+      "key": "852",
+      "vertices": 804
+    },
+    {
+      "key": "2345",
+      "vertices": 2316
+    },
+    {
+      "key": "2433",
+      "vertices": 4986
+    },
+    {
+      "key": "2454",
+      "vertices": 1176
+    },
+    {
+      "key": "2462",
+      "vertices": 960
+    },
+    {
+      "key": "2486",
+      "vertices": 4704
+    },
+    {
+      "key": "2489",
+      "vertices": 3240
+    },
+    {
+      "key": "2494",
+      "vertices": 1212
+    },
+    {
+      "key": "2529",
+      "vertices": 906
+    },
+    {
+      "key": "2554",
+      "vertices": 8628
+    },
+    {
+      "key": "2569",
+      "vertices": 1200
+    },
+    {
+      "key": "2582",
+      "vertices": 2364
+    },
+    {
+      "key": "2584",
+      "vertices": 1320
+    },
+    {
+      "key": "2585",
+      "vertices": 4632
+    },
+    {
+      "key": "3027",
+      "vertices": 35508
+    },
+    {
+      "key": "3035",
+      "vertices": 10740
+    },
+    {
+      "key": "3037",
+      "vertices": 2376
+    },
+    {
+      "key": "3038",
+      "vertices": 1668
+    },
+    {
+      "key": "3045",
+      "vertices": 864
+    },
+    {
+      "key": "3144",
+      "vertices": 5328
+    },
+    {
+      "key": "3185",
+      "vertices": 1140
+    },
+    {
+      "key": "3299",
+      "vertices": 1764
+    },
+    {
+      "key": "3300",
+      "vertices": 660
+    },
+    {
+      "key": "3307",
+      "vertices": 1662
+    },
+    {
+      "key": "3308",
+      "vertices": 1776
+    },
+    {
+      "key": "3455",
+      "vertices": 1248
+    },
+    {
+      "key": "3581",
+      "vertices": 468
+    },
+    {
+      "key": "3625",
+      "vertices": 3540
+    },
+    {
+      "key": "3641",
+      "vertices": 2016
+    },
+    {
+      "key": "3676",
+      "vertices": 2382
+    },
+    {
+      "key": "3761",
+      "vertices": 6405
+    },
+    {
+      "key": "3788",
+      "vertices": 1716
+    },
+    {
+      "key": "3815",
+      "vertices": 990
+    },
+    {
+      "key": "3816",
+      "vertices": 1122
+    },
+    {
+      "key": "3817",
+      "vertices": 1122
+    },
+    {
+      "key": "3818",
+      "vertices": 1434
+    },
+    {
+      "key": "3819",
+      "vertices": 1434
+    },
+    {
+      "key": "3820",
+      "vertices": 822
+    },
+    {
+      "key": "3821",
+      "vertices": 1080
+    },
+    {
+      "key": "3822",
+      "vertices": 1080
+    },
+    {
+      "key": "3823",
+      "vertices": 2208
+    },
+    {
+      "key": "3830",
+      "vertices": 1728
+    },
+    {
+      "key": "3831",
+      "vertices": 1056
+    },
+    {
+      "key": "3834",
+      "vertices": 1869
+    },
+    {
+      "key": "3835",
+      "vertices": 510
+    },
+    {
+      "key": "3836",
+      "vertices": 2676
+    },
+    {
+      "key": "3837",
+      "vertices": 1194
+    },
+    {
+      "key": "3838",
+      "vertices": 3894
+    },
+    {
+      "key": "3841",
+      "vertices": 762
+    },
+    {
+      "key": "3853",
+      "vertices": 5628
+    },
+    {
+      "key": "3856",
+      "vertices": 3000
+    },
+    {
+      "key": "3899",
+      "vertices": 1290
+    },
+    {
+      "key": "3901",
+      "vertices": 2085
+    },
+    {
+      "key": "3960",
+      "vertices": 4536
+    },
+    {
+      "key": "3963",
+      "vertices": 3366
+    },
+    {
+      "key": "4079",
+      "vertices": 1074
+    },
+    {
+      "key": "4083",
+      "vertices": 3840
+    },
+    {
+      "key": "4084",
+      "vertices": 2328
+    },
+    {
+      "key": "4089",
+      "vertices": 2208
+    },
+    {
+      "key": "4095",
+      "vertices": 576
+    },
+    {
+      "key": "4175",
+      "vertices": 858
+    },
+    {
+      "key": "4187",
+      "vertices": 37140
+    },
+    {
+      "key": "4213",
+      "vertices": 4227
+    },
+    {
+      "key": "4315",
+      "vertices": 2400
+    },
+    {
+      "key": "4349",
+      "vertices": 3408
+    },
+    {
+      "key": "4444",
+      "vertices": 3870
+    },
+    {
+      "key": "4485",
+      "vertices": 1308
+    },
+    {
+      "key": "4522",
+      "vertices": 342
+    },
+    {
+      "key": "4529",
+      "vertices": 996
+    },
+    {
+      "key": "4530",
+      "vertices": 3420
+    },
+    {
+      "key": "4531",
+      "vertices": 1272
+    },
+    {
+      "key": "4589",
+      "vertices": 1440
+    },
+    {
+      "key": "4595",
+      "vertices": 4740
+    },
+    {
+      "key": "4600",
+      "vertices": 2316
+    },
+    {
+      "key": "4624",
+      "vertices": 1728
+    },
+    {
+      "key": "4714",
+      "vertices": 4812
+    },
+    {
+      "key": "4715",
+      "vertices": 1632
+    },
+    {
+      "key": "4742",
+      "vertices": 4104
+    },
+    {
+      "key": "4862",
+      "vertices": 300
+    },
+    {
+      "key": "4863",
+      "vertices": 1692
+    },
+    {
+      "key": "4873",
+      "vertices": 5472
+    },
+    {
+      "key": "6014",
+      "vertices": 2664
+    },
+    {
+      "key": "6015",
+      "vertices": 2136
+    },
+    {
+      "key": "6019",
+      "vertices": 540
+    },
+    {
+      "key": "6039",
+      "vertices": 1644
+    },
+    {
+      "key": "6091",
+      "vertices": 420
+    },
+    {
+      "key": "6105",
+      "vertices": 10914
+    },
+    {
+      "key": "6123",
+      "vertices": 816
+    },
+    {
+      "key": "6156",
+      "vertices": 4719
+    },
+    {
+      "key": "6157",
+      "vertices": 3162
+    },
+    {
+      "key": "6187",
+      "vertices": 2178
+    },
+    {
+      "key": "6190",
+      "vertices": 1500
+    },
+    {
+      "key": "6191",
+      "vertices": 1146
+    },
+    {
+      "key": "6583",
+      "vertices": 1860
+    },
+    {
+      "key": "30044",
+      "vertices": 2436
+    },
+    {
+      "key": "30046",
+      "vertices": 1944
+    },
+    {
+      "key": "30134",
+      "vertices": 5658
+    },
+    {
+      "key": "30136",
+      "vertices": 630
+    },
+    {
+      "key": "30193",
+      "vertices": 6426
+    },
+    {
+      "key": "30274",
+      "vertices": 6444
+    },
+    {
+      "key": "30383",
+      "vertices": 2346
+    },
+    {
+      "key": "42023",
+      "vertices": 2190
+    },
+    {
+      "key": "47905",
+      "vertices": 1260
+    },
+    {
+      "key": "55295",
+      "vertices": 6024
+    },
+    {
+      "key": "55296",
+      "vertices": 1884
+    },
+    {
+      "key": "55297",
+      "vertices": 2304
+    },
+    {
+      "key": "55299",
+      "vertices": 6036
+    },
+    {
+      "key": "73312",
+      "vertices": 1863
+    },
+    {
+      "key": "73435",
+      "vertices": 1080
+    },
+    {
+      "key": "3081cc01",
+      "vertices": 1212
+    },
+    {
+      "key": "4287a",
+      "vertices": 1560
+    },
+    {
+      "key": "3794a",
+      "vertices": 516
+    },
+    {
+      "key": "4275b",
+      "vertices": 2034
+    },
+    {
+      "key": "3245a",
+      "vertices": 516
+    },
+    {
+      "key": "3957a",
+      "vertices": 1200
+    },
+    {
+      "key": "2335p02",
+      "vertices": 852
+    },
+    {
+      "key": "2335p01",
+      "vertices": 804
+    },
+    {
+      "key": "2453a",
+      "vertices": 600
+    },
+    {
+      "key": "4444p02",
+      "vertices": 5181
+    },
+    {
+      "key": "3004p20",
+      "vertices": 576
+    },
+    {
+      "key": "3039p12",
+      "vertices": 1482
+    },
+    {
+      "key": "3039pc4",
+      "vertices": 2400
+    },
+    {
+      "key": "2362a",
+      "vertices": 564
+    },
+    {
+      "key": "4864a",
+      "vertices": 564
+    },
+    {
+      "key": "3626bp02",
+      "vertices": 2286
+    },
+    {
+      "key": "973p25",
+      "vertices": 1377
+    },
+    {
+      "key": "3747a",
+      "vertices": 3414
+    },
+    {
+      "key": "3070bpc2",
+      "vertices": 756
+    },
+    {
+      "key": "3069bp50",
+      "vertices": 2892
+    },
+    {
+      "key": "3070bp07",
+      "vertices": 1188
+    },
+    {
+      "key": "2362b",
+      "vertices": 852
+    },
+    {
+      "key": "2493b",
+      "vertices": 2436
+    },
+    {
+      "key": "3496c01",
+      "vertices": 2262
+    },
+    {
+      "key": "3068bd01",
+      "vertices": 951
+    },
+    {
+      "key": "3004p06",
+      "vertices": 684
+    },
+    {
+      "key": "4864b",
+      "vertices": 852
+    },
+    {
+      "key": "3069a",
+      "vertices": 84
+    },
+    {
+      "key": "44343p02",
+      "vertices": 24198
+    },
+    {
+      "key": "3626bp39",
+      "vertices": 2748
+    },
+    {
+      "key": "973p77",
+      "vertices": 1419
+    },
+    {
+      "key": "3626bps5",
+      "vertices": 2706
+    },
+    {
+      "key": "973p24",
+      "vertices": 1251
+    },
+    {
+      "key": "3852a",
+      "vertices": 5076
+    },
+    {
+      "key": "71075a",
+      "vertices": 1056
+    },
+    {
+      "key": "453cc01",
+      "vertices": 2220
+    },
+    {
+      "key": "3039p34",
+      "vertices": 2868
+    },
+    {
+      "key": "3070bp06",
+      "vertices": 492
+    },
+    {
+      "key": "30367a",
+      "vertices": 2592
+    },
+    {
+      "key": "4599a",
+      "vertices": 1716
+    },
+    {
+      "key": "2454ps5",
+      "vertices": 11130
+    },
+    {
+      "key": "2345p44",
+      "vertices": 2343
+    },
+    {
+      "key": "4865a",
+      "vertices": 252
+    },
+    {
+      "key": "826p02",
+      "vertices": 864
+    },
+    {
+      "key": "825p02",
+      "vertices": 864
+    },
+    {
+      "key": "3068a",
+      "vertices": 372
+    },
+    {
+      "key": "3626bps3",
+      "vertices": 2370
+    },
+    {
+      "key": "3626bp05",
+      "vertices": 2268
+    },
+    {
+      "key": "3048b",
+      "vertices": 360
+    },
+    {
+      "key": "44302a",
+      "vertices": 5016
+    },
+    {
+      "key": "4212b",
+      "vertices": 8742
+    },
+    {
+      "key": "3829c01",
+      "vertices": 2940
+    },
+    {
+      "key": "3068bp57",
+      "vertices": 1320
+    },
+    {
+      "key": "3070a",
+      "vertices": 84
+    },
+    {
+      "key": "2348b",
+      "vertices": 1638
+    },
+    {
+      "key": "2349a",
+      "vertices": 4302
+    },
+    {
+      "key": "2436a",
+      "vertices": 1764
+    },
+    {
+      "key": "4592c01",
+      "vertices": 2412
+    },
+    {
+      "key": "2540",
+      "vertices": 1524
+    },
+    {
+      "key": "2566",
+      "vertices": 2388
+    },
+    {
+      "key": "6064",
+      "vertices": 6600
+    },
+    {
+      "key": "10197",
+      "vertices": 1824
+    },
+    {
+      "key": "15469",
+      "vertices": 3648
+    },
+    {
+      "key": "24855",
+      "vertices": 3111
+    },
+    {
+      "key": "26287",
+      "vertices": 1968
+    },
+    {
+      "key": "32016",
+      "vertices": 2874
+    },
+    {
+      "key": "32039",
+      "vertices": 2742
+    },
+    {
+      "key": "32607",
+      "vertices": 2118
+    },
+    {
+      "key": "33183",
+      "vertices": 1032
+    },
+    {
+      "key": "35480",
+      "vertices": 1812
+    },
+    {
+      "key": "45301",
+      "vertices": 13986
+    },
+    {
+      "key": "47458",
+      "vertices": 522
+    },
+    {
+      "key": "49668",
+      "vertices": 675
+    },
+    {
+      "key": "50450",
+      "vertices": 528
+    },
+    {
+      "key": "64225",
+      "vertices": 2409
+    },
+    {
+      "key": "67329",
+      "vertices": 2916
+    },
+    {
+      "key": "68013",
+      "vertices": 1350
+    },
+    {
+      "key": "90202",
+      "vertices": 2160
+    },
+    {
+      "key": "90397",
+      "vertices": 3276
+    },
+    {
+      "key": "98100",
+      "vertices": 2514
+    },
+    {
+      "key": "98284",
+      "vertices": 3900
+    },
+    {
+      "key": "98835",
+      "vertices": 2610
+    },
+    {
+      "key": "bouquet-custom-10280---67811-e6045ae4",
+      "vertices": 7116
+    },
+    {
+      "key": "bouquet-custom-10280---39262-a0628c1a",
+      "vertices": 2508
+    },
+    {
+      "key": "bouquet-custom-10280---15362-cf1a0f73",
+      "vertices": 2778
+    },
+    {
+      "key": "30367c",
+      "vertices": 2496
+    },
+    {
+      "key": "bouquet-custom-10280---98088p04-3a56a765",
+      "vertices": 2448
+    }
+  ]
+}

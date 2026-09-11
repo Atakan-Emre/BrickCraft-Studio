@@ -1,0 +1,33 @@
+Ferrari F40 — LEGO Creator Expert set 10248-1 (2015)
+Acquired: 2026-09-08
+Original source file: https://library.ldraw.org/library/omr/10248-1.mpd
+OMR model page: https://library.ldraw.org/omr/sets/1187
+Model author: Magnus Forsberg [MagFors]
+Original source filename: 10248-1.mpd
+Saved unchanged as: car.mpd
+Bytes: 75915
+SHA-256: 5542a89cf9f04bcb6b72e5d2a810b41e6661d30dcf22b12473f23c36a337bf94
+
+LICENSE
+Every embedded subfile header identifies Magnus Forsberg [MagFors] and states:
+0 !LICENSE Redistributable under CCAL version 2.0 : see CAreadme.txt
+This is Creative Commons Attribution 2.0 (CC BY 2.0).
+License: https://creativecommons.org/licenses/by/2.0/
+LDraw primary-source explanation, including OMR coverage:
+https://www.ldraw.org/docs-main/licenses/ldraw-org-contributor-agreement.html
+Credit model author and source, name/link license, and identify any derived modifications.
+The original MPD in this directory is unmodified; downstream dependency packing/conversion should be identified separately.
+
+COMPLETENESS AND PARSING NOTES
+OMR page explicitly reports Missing Parts: No; Missing Patterns: No; Missing Stickers: Yes.
+Standard LDraw library dependencies are NOT embedded. Main agent must resolve/package those.
+19 embedded FILE blocks: 17 .ldr model/subassembly files and 2 custom .dat files.
+Root FILE: 10248 - main.ldr
+Embedded .dat files: 10248 - 92582.dat; s\10248 - 92582s01.dat
+199 unique external DAT filenames referenced across all embedded files (including geometry dependencies of embedded custom DATs).
+No external .ldr dependencies and no TEXMAP commands found.
+229 explicit STEP markers across all embedded subfiles.
+Recursively traversing only LDR submodels and counting each DAT instance as a physical element yields 1157 instances, 260 distinct filename/color combinations and 172 distinct DAT filenames. This is a file-derived count, not the retail inventory.
+Official LEGO instructions page advertises 1158 pieces: https://www.lego.com/en-us/service/building-instructions/10248
+Do not inflate file-derived count to match the retail number or claim a verified inventory reconciliation.
+Preserve filenames containing spaces and backslashes while resolving embedded references case-insensitively.

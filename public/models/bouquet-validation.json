@@ -1,0 +1,29 @@
+{
+  "title": "Flower Bouquet",
+  "setNumber": "10280-1",
+  "author": "Orion Pobursky [OrionP]",
+  "license": "CC BY 2.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+  "sourceUrl": "https://library.ldraw.org/library/omr/10280-1.mpd",
+  "sourcePage": "https://library.ldraw.org/omr/sets/1382",
+  "caveats": [
+    "Complete source model."
+  ],
+  "sourceFile": "/models/sources/bouquet.mpd",
+  "sourceSha256": "e42741e0f6f57847224fd96b9487ac5a631615877c7b7d183045455b53dd547b",
+  "rootFile": "10280 - main.ldr",
+  "pieceCount": 750,
+  "partCount": 67,
+  "partColorCount": 79,
+  "embeddedFileCount": 52,
+  "coordinateSystem": "LDraw; column-major matrices; 20 units per stud; Y points down",
+  "modifications": "Nested assembly transforms flattened into per-element JSON; original MPD unchanged.",
+  "originalStepCount": 94,
+  "missingDependencies": [],
+  "warnings": [
+    "TEXMAP has no verified polygon fallback in 10280 - 98088p04.dat"
+  ],
+  "textureFallbacks": [],
+  "excludedHelpers": [],
+  "excludedHelperCount": 0
+}

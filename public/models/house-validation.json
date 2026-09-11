@@ -1,0 +1,50 @@
+{
+  "title": "Carriage House",
+  "author": "Michael Horvath",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "sourceUrl": "https://raw.githubusercontent.com/mjhorvath/Mike-LDraw-Models/master/source/ldr_carriage_house_newer.mpd",
+  "sourcePage": "https://github.com/mjhorvath/Mike-LDraw-Models",
+  "caveats": [
+    "CAD ışık ve kamera işaretleri parça listesine ve modele dahil edilmez.",
+    "Han Solo karbonit desenli parça, kaynak dosyadaki geometrik desenle gösterilir; küçük baskı ayrıntıları farklı olabilir."
+  ],
+  "sourceFile": "/models/sources/house.mpd",
+  "sourceSha256": "726e2869710eeb2c532ac1ab14a69231b7c1d689a20d745d599b04ab742ce481",
+  "rootFile": "complete.dat",
+  "pieceCount": 1698,
+  "partCount": 239,
+  "partColorCount": 343,
+  "embeddedFileCount": 70,
+  "coordinateSystem": "LDraw; column-major matrices; 20 units per stud; Y points down",
+  "modifications": "Nested assembly transforms flattened into per-element JSON; original MPD unchanged.",
+  "originalStepCount": 25,
+  "missingDependencies": [],
+  "warnings": [
+    "Han Solo karbonit desenli parça, kaynak dosyadaki geometrik desenle gösterilir; küçük baskı ayrıntıları farklı olabilir."
+  ],
+  "textureFallbacks": [
+    {
+      "part": "2454ps5",
+      "sourceId": "2454aps5.dat",
+      "description": "Brick 1 x 2 x 5 with SW Han Solo Carbonite Pattern",
+      "fallbackFaceCount": 2224,
+      "rendering": "Original visible polygon fallback; texture directives ignored by Three.js LDrawLoader"
+    }
+  ],
+  "excludedHelpers": [
+    {
+      "sourceId": "light.dat",
+      "name": "~Light Source",
+      "count": 20,
+      "reason": "LDraw Helper category; CAD scene marker, not a physical LEGO element"
+    },
+    {
+      "sourceId": "camera.dat",
+      "name": "~Camera Position",
+      "count": 3,
+      "reason": "CAD camera/light placement marker"
+    }
+  ],
+  "excludedHelperCount": 23
+}

@@ -1,0 +1,28 @@
+{
+  "title": "Ferrari F40",
+  "setNumber": "10248-1",
+  "author": "Magnus Forsberg [MagFors]",
+  "license": "CC BY 2.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+  "sourceUrl": "https://library.ldraw.org/library/omr/10248-1.mpd",
+  "sourcePage": "https://library.ldraw.org/omr/sets/1187",
+  "caveats": [
+    "OMR reports missing stickers, no missing parts or patterns.",
+    "File-derived element count differs from the retail inventory."
+  ],
+  "sourceFile": "/models/sources/car.mpd",
+  "sourceSha256": "5542a89cf9f04bcb6b72e5d2a810b41e6661d30dcf22b12473f23c36a337bf94",
+  "rootFile": "10248 - main.ldr",
+  "pieceCount": 1157,
+  "partCount": 172,
+  "partColorCount": 260,
+  "embeddedFileCount": 19,
+  "coordinateSystem": "LDraw; column-major matrices; 20 units per stud; Y points down",
+  "modifications": "Nested assembly transforms flattened into per-element JSON; original MPD unchanged.",
+  "originalStepCount": 229,
+  "missingDependencies": [],
+  "warnings": [],
+  "textureFallbacks": [],
+  "excludedHelpers": [],
+  "excludedHelperCount": 0
+}

@@ -1,0 +1,30 @@
+{
+  "title": "NASA Space Shuttle Discovery",
+  "setNumber": "10283-1",
+  "author": "Orion Pobursky [OrionP]",
+  "license": "CC BY 2.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+  "sourceUrl": "https://library.ldraw.org/library/omr/10283-1.mpd",
+  "sourcePage": "https://library.ldraw.org/omr/sets/1443",
+  "caveats": [
+    "Hubble is displayed deployed. Source omits its shuttle attachment bracket and stowed solar-array tubes.",
+    "Source TEXMAP images are not embedded; some labels may render without their printed artwork."
+  ],
+  "sourceFile": "/models/sources/shuttle.mpd",
+  "sourceSha256": "80257609ca76b3c2d1c430b2185517fa7429e649ee501711f3eb250e22d03da3",
+  "rootFile": "10283 - main.ldr",
+  "pieceCount": 2318,
+  "partCount": 318,
+  "partColorCount": 516,
+  "embeddedFileCount": 235,
+  "coordinateSystem": "LDraw; column-major matrices; 20 units per stud; Y points down",
+  "modifications": "Nested assembly transforms flattened into per-element JSON; original MPD unchanged.",
+  "originalStepCount": 746,
+  "missingDependencies": [],
+  "warnings": [
+    "TEXMAP has no verified polygon fallback in 10283 - 6342851a.dat"
+  ],
+  "textureFallbacks": [],
+  "excludedHelpers": [],
+  "excludedHelperCount": 0
+}

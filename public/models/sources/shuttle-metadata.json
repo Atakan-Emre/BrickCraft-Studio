@@ -1,0 +1,13 @@
+{
+  "title": "NASA Space Shuttle Discovery",
+  "setNumber": "10283-1",
+  "author": "Orion Pobursky [OrionP]",
+  "license": "CC BY 2.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+  "sourceUrl": "https://library.ldraw.org/library/omr/10283-1.mpd",
+  "sourcePage": "https://library.ldraw.org/omr/sets/1443",
+  "caveats": [
+    "Hubble is displayed deployed. Source omits its shuttle attachment bracket and stowed solar-array tubes.",
+    "Source TEXMAP images are not embedded; some labels may render without their printed artwork."
+  ]
+}
